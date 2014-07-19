@@ -4,8 +4,12 @@
 			
 				<div id="inner-content" class="row clearfix">
 			
-				    <div id="main" class="large-8 medium-8 columns clearfix" role="main">
+				    
 
+				    <?php if (is_front_page()): ?>
+				    		<?php get_template_part( 'partials/front'); ?>				  
+				    <?php else: ?>
+				    	<div id="main" class="large-8 medium-8 columns clearfix" role="main">
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					    	<?php get_template_part( 'partials/loop', 'archive' ); ?>
@@ -29,11 +33,12 @@
     						<?php get_template_part( 'partials/content', 'missing' ); ?>
 					
 					    <?php endif; ?>
-			
-				    </div> <!-- end #main -->
-    
-				    <?php get_sidebar(); ?>
-				    
+
+
+					    </div> <!-- end #main -->
+	    
+					    <?php get_sidebar(); ?>
+							<?php endif; ?>					   
 				</div> <!-- end #inner-content -->
     
 			</div> <!-- end #content -->

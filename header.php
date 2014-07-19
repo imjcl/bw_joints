@@ -41,6 +41,7 @@
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			<div id="container">
+				<div class="row masthead"></div>
 
 				<header class="header" role="banner">
 
@@ -48,15 +49,14 @@
 						<div class="large-12 columns">
 							<h1>
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
-									<?php bloginfo('name'); ?>
+									<img src="<?php bloginfo('stylesheet_directory') ?>/library/images/logo.png" />
 								</a>
-								<small>
-									<?php  bloginfo('description'); ?>
-								</small>
 							</h1>
+
+
 						</div>
 
-						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
+						 <?php //get_template_part( 'partials/nav', 'offcanvas' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
 
