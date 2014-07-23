@@ -68,20 +68,22 @@ jQuery(document).ready(function($) {
 	// add all your scripts here
 
     // Sticky for Signup Form
-    var stickyTop = $('#signup').offset().top;
+    /*
+    var stickyTop = $('.sticky-catch').offset().top;
     $(window).scroll(function(){ // scroll event
 
-    var windowTop = $(window).scrollTop(); // returns number
+    var windowTop = $('.sticky-catch').scrollTop(); // returns number
     if (stickyTop < windowTop) {
-      var dynamicWidth = $('#signup').parent().width();
-      $('#signup').css({ position: 'fixed', top: 30});
-      $('#signup').css('width', dynamicWidth);
+      var dynamicWidth = $('.sticky-catch').parent().width();
+      $('.sticky-catch').css({ position: 'fixed', top: 30});
+      $('.sticky-catch').css('width', dynamicWidth);
     }
     else {
-      $('#signup').css('position','static');
-      $('#signup').css('width','auto');
+      $('.sticky-catch').css('position','static');
+      $('.sticky-catch').css('width','auto');
     }
     });	
+    */
      
 }); /* end of as page load scripts */
 
