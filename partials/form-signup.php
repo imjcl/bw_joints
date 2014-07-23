@@ -1,5 +1,5 @@
-<div id="signup" class="panel">
-<h1>Get Your Free Intro Class!</h1>
+<div id="signup">
+<h2>Get Your Free Intro Class!</h2>
 <!--<form action="https://addmembers.com/rainmaker/process/" method="post" name="rmform" id="rmform" role="form">-->
 <form id="rmform" name="rmform" method="post" action="">
   <input name="SID" type="hidden" id="SID" value="1197">
@@ -24,9 +24,9 @@
     <input type="tel" class="form-control" id="Phone" name="Phone" placeholder="Phone" required>
   </div>
 
-  <button name="submit" type="submit" class="btn btn-large btn-primary">GET YOUR FREE CLASS</button>
+  <button name="submit" type="submit" class="button tiny">GET YOUR FREE CLASS</button>
   <!-- <a href="#myModal" data-toggle="modal"><button class="btn btn-primary" id="Submit" name="Submit" type="submit" onClick="getFName(this.form)">GET YOUR FREE CLASS</button></a>-->
-  <! -- <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>  -->
+  <!-- <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>  -->
 </form>
 </div>
 
