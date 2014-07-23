@@ -15,6 +15,12 @@
 </div>
 
 <div class="row">
+  <div class="small-12 columns">
+    <?php get_template_part( 'partials/form', 'signup' ); ?>       
+  </div>
+</div>
+
+<div class="row">
   <div class="small-8 columns">
 <p>
 
