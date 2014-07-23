@@ -1,6 +1,5 @@
 <div id="signup" class="panel">
-<p>Free Intro Class!</p>
-<p>Sign Up Today!</p>
+<h1>Get Your Free Intro Class!</h1>
 <!--<form action="https://addmembers.com/rainmaker/process/" method="post" name="rmform" id="rmform" role="form">-->
 <form id="rmform" name="rmform" method="post" action="">
   <input name="SID" type="hidden" id="SID" value="1197">
@@ -27,15 +26,8 @@
 
   <button name="submit" type="submit" class="btn btn-large btn-primary">GET YOUR FREE CLASS</button>
   <!-- <a href="#myModal" data-toggle="modal"><button class="btn btn-primary" id="Submit" name="Submit" type="submit" onClick="getFName(this.form)">GET YOUR FREE CLASS</button></a>-->
-  <a href="#" data-reveal-id="myModal">Click Me For A Modal</a> 
+  <! -- <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>  -->
 </form>
-<div class="post-form">
-  <p>Have Questions?</p>
-  <p>Call Today! (310) 376-1602</p>
-</div>
-<div class="disclaimer">
-  <p>We respect your privacy and take protecting it seriously. We will never sell, distribute or lease your personal information to third parties unless we are required by law to do so.</p> 
-</div>
 </div>
 
 <div id="myModal" class="reveal-modal" data-reveal>
