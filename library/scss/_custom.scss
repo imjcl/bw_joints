@@ -13,4 +13,19 @@
 
 #signup {
   width:inherit;
+  text-align: center;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+}
+
+.form-group {
+  display: inline-block;
+  padding: 5px 8px;
 }

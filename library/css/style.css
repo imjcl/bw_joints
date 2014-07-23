@@ -9607,4 +9607,20 @@ I'm not going to be changing too much about the existing stylesheets and I want 
 /* line 14, ../scss/_custom.scss */
 #signup {
   width: inherit;
+  text-align: center;
+}
+/* line 18, ../scss/_custom.scss */
+#signup h1, #signup h2, #signup h3, #signup h4, #signup h5, #signup h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 23, ../scss/_custom.scss */
+#signup form {
+  margin: 0 auto;
+}
+
+/* line 28, ../scss/_custom.scss */
+.form-group {
+  display: inline-block;
+  padding: 5px 8px;
 }
