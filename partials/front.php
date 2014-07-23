@@ -26,8 +26,5 @@
 
   </div>
   <div class="small-4 columns">
-    <div class="sticky-catch">
-      <?php get_template_part( 'partials/form', 'signup' ); ?>          
-    </div>
   </div>
 </div>
