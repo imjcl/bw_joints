@@ -57,5 +57,11 @@
   <div class="small-12 small-centered columns">
     <h2 class="text-center">Testimonials<br>
     <small>See what our clients are saying!</small></h2>
+
+    <?php if ( is_active_sidebar( 'testimonials' ) ) : ?>
+
+      <?php dynamic_sidebar( 'testimonials' ); ?>
+
+    <?php endif; ?>
   </div>
 </div>
