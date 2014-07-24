@@ -9637,16 +9637,20 @@ footer #inner-footer {
 /* line 44, ../scss/_custom.scss */
 #class-img .overlay {
   display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
 }
-/* line 47, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 #class-img .overlay h2 {
   font-size: 1.1em;
 }
-/* line 51, ../scss/_custom.scss */
+/* line 55, ../scss/_custom.scss */
 #class-img .overlay p {
   font-size: 0.9em;
 }
-/* line 57, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 #class-img .mt .overlay {
   background: red;
 }

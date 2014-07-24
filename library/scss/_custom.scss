@@ -43,7 +43,11 @@ footer {
 
   .overlay {
     display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
+    opacity: 0.5;
     h2 {
       font-size: 1.1em;
     }
