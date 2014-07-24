@@ -47,7 +47,7 @@
 
 					<div id="inner-header" class="row">
 						<div class="large-12 columns">
-							<h1>
+							<h1 class="text-center">
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
 									<img src="<?php bloginfo('stylesheet_directory') ?>/library/images/logo.png" />
 								</a>
