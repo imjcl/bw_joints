@@ -47,13 +47,15 @@
 
   <div class="small-4 columns">
     <div class="">
+      <h2>Latest</h2>
     </div>
   </div>
 </div>
 
 <!-- Testimonials -->
 <div class="row">
-  <div class="small-8 small-centered columns">
-  
+  <div class="small-12 small-centered columns">
+    <h2 class="text-center">Testimonials<br>
+    <small>See what our clients are saying!</small></h2>
   </div>
 </div>
