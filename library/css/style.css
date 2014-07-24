@@ -9676,3 +9676,30 @@ footer #inner-footer {
 #class-img .youth .overlay {
   background: rgba(175, 255, 175, 0.75);
 }
+
+/* line 94, ../scss/_custom.scss */
+blockquote.easy_testimonial {
+  text-align: center;
+  position: relative;
+  border: 8px solid #666;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px #888;
+}
+/* line 102, ../scss/_custom.scss */
+blockquote.easy_testimonial:before {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  border: 25px solid;
+  border-color: #666 transparent transparent #666;
+}
+/* line 111, ../scss/_custom.scss */
+blockquote.easy_testimonial:after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  right: 11%;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}

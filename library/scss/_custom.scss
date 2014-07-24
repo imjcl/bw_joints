@@ -90,3 +90,30 @@ footer {
     }
   }
 }
+
+blockquote.easy_testimonial {
+  text-align: center;
+
+  position: relative;
+  border: 8px solid #666;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px #888;
+  
+  &:before {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    border: 25px solid;
+    border-color: #666 transparent transparent #666;
+  }
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    right: 11%;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+  }
+}
