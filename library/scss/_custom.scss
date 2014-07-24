@@ -39,7 +39,15 @@ footer {
 }
 
 #class-img {
-  
+
+  .columns {
+    padding: 0;
+    margin: 0px;
+  }
+
+  img {
+    display: block;
+  }
 
   .overlay {
     display: none;
@@ -47,9 +55,10 @@ footer {
     bottom: 0;
     width: 100%;
 
-    opacity: 0.5;
     h2 {
       font-size: 1.1em;
+      text-transform: uppercase;
+      font-weight: bold;
     }
 
     p {
@@ -59,7 +68,25 @@ footer {
 
   .mt {
     .overlay {
-      background: red;
+      background: rgba(255,0,0,0.75);
+    }
+  }
+
+  .mma {
+    .overlay {
+      background: rgba(0,0,255,0.75);
+    }
+  }  
+
+  .box{
+    .overlay {
+      background: rgba(0,255,0,0.75);
+    }
+  }
+
+  .youth {
+    .overlay {
+      background: rgba(175, 255, 175, 0.75);
     }
   }
 }
