@@ -21,37 +21,45 @@
 </div>
 
 <div id="class-img" class="row">
-  <div class="small-3 columns mt">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW1.png" />
-    <div class="overlay">
-      <h2>Muay Thai</h2>
-      <p>The art of 8 limbs</p>
+  <div class="small-3 columns">
+    <div class="mt">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-011.jpg" />
+      <div class="overlay">
+        <h2>Muay Thai</h2>
+        <p>The art of 8 limbs</p>
+      </div>
     </div>
   </div>
 
   <div class="small-3 columns mma">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW2.png" />
-    <div class="overlay">
-      <h2>Mixed Martial Arts</h2>
-      <p>...</p>
+    <div class="mma">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-012.jpg" />
+      <div class="overlay">
+        <h2>Mixed Martial Arts</h2>
+        <p>...</p>
+      </div>
     </div>
   </div>
 
-  <div class="small-3 columns box">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW3.png" />
-    <div class="overlay">
-      <h2>Boxing</h2>
-      <p>The sweet science</p>
+  <div class="small-3 columns">
+    <div class="box">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-002.jpg" />
+      <div class="overlay">
+        <h2>Boxing</h2>
+        <p>The sweet science</p>
+      </div>
     </div>
   </div>
 
-  <div class="small-3 columns youth">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW1.png" />
-    <div class="overlay">
-      <h2>Youth Martial Arts</h2>
-      <p>Teach your kid's the Muay Thai Kick Boxing ABC's</p>
-    </div>
-  </div>  
+  <div class="small-3 columns">
+    <div class="youth">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-014.jpg" />
+      <div class="overlay">
+        <h2>Youth Martial Arts</h2>
+        <p>Teach your kid's the Muay Thai Kick Boxing ABC's</p>
+      </div>
+    </div>  
+  </div>
 </div>
 
 <div class="row">
