@@ -20,20 +20,37 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="small-3 columns">
+<div id="class-img" class="row">
+  <div class="small-3 columns mt">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW1.png" />
+    <div class="overlay">
+      <h2>Muay Thai</h2>
+      <p>The art of 8 limbs</p>
+    </div>
   </div>
 
-  <div class="small-3 columns">
+  <div class="small-3 columns mma">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW2.png" />
+    <div class="overlay">
+      <h2>Mixed Martial Arts</h2>
+      <p>...</p>
+    </div>
   </div>
 
-  <div class="small-3 columns">
+  <div class="small-3 columns box">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW3.png" />
+    <div class="overlay">
+      <h2>Boxing</h2>
+      <p>The sweet science</p>
+    </div>
   </div>
-  <div class="small-3 columns">
+
+  <div class="small-3 columns youth">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW1.png" />
+    <div class="overlay">
+      <h2>Youth Martial Arts</h2>
+      <p>Teach your kid's the Muay Thai Kick Boxing ABC's</p>
+    </div>
   </div>  
 </div>
 
