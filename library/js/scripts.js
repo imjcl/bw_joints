@@ -84,6 +84,12 @@ jQuery(document).ready(function($) {
     }
     });	
     */
+
+    $('#class-img').children().each(function() {
+        $(this).hover(function () {
+            $(this).children(".overlay").slideToggle();
+        });
+    });
      
 }); /* end of as page load scripts */
 
