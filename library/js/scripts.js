@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
     */
 
     $('#class-img').children().each(function() {
-        $(this).hover(function () {
+        $(this).children().hover(function () {
             $(this).children(".overlay").slideToggle();
         });
     });
