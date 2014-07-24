@@ -9633,3 +9633,20 @@ footer {
 footer #inner-footer {
   background: black;
 }
+
+/* line 44, ../scss/_custom.scss */
+#class-img .overlay {
+  display: none;
+}
+/* line 47, ../scss/_custom.scss */
+#class-img .overlay h2 {
+  font-size: 1.1em;
+}
+/* line 51, ../scss/_custom.scss */
+#class-img .overlay p {
+  font-size: 0.9em;
+}
+/* line 57, ../scss/_custom.scss */
+#class-img .mt .overlay {
+  background: red;
+}
