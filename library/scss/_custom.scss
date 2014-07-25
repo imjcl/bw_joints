@@ -1,7 +1,7 @@
-h1, h2, h3, h4, h5, h6 {
-  @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
-  font-family: 'PT Serif', serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto';
 }
 
 .masthead {
@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6 {
   .orbit-container {
     a {
       &:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+      &:focus {
         background: rgba(255, 255, 255, 0.4);
       }
     }
@@ -32,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -115,6 +117,14 @@ blockquote.easy_testimonial {
   border: 8px solid #666;
   border-radius: 30px;
   box-shadow: 2px 2px 4px #888;
+
+  p {
+    color: black;
+  }
+
+  cite {
+    font-size: 1em;
+  }
   
   &:before {
     content: ' ';
