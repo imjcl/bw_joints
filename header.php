@@ -54,6 +54,9 @@
 							</h1>
 
 
+							<nav class="row"> 
+								<?php joints_main_nav(); ?>
+							</nav>
 						</div>
 
 						 <?php //get_template_part( 'partials/nav', 'offcanvas' ); ?>
@@ -61,7 +64,6 @@
 						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>
-
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
 
