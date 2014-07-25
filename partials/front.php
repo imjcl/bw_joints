@@ -72,7 +72,12 @@
 
   <div class="small-4 columns">
     <div class="">
-      <h2>Latest</h2>
+      <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
+
+        <?php dynamic_sidebar( 'sidebar1' ); ?>
+
+      <?php endif; ?>
+
     </div>
   </div>
 </div>
