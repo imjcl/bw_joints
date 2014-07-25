@@ -3,6 +3,16 @@
   min-height: 5px;
 }
 
+#content {
+  .orbit-container {
+    a {
+      &:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+    }
+  }
+}
+
 .orbit-bullets {
   display: none;
 }

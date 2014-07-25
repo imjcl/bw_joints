@@ -5024,7 +5024,7 @@ kbd {
   height: 60px;
   line-height: 50px;
   color: white;
-  background-color: transparent;
+  background-color: none;
   text-indent: -9999px !important;
   z-index: 10;
 }
@@ -9594,90 +9594,95 @@ I'm not going to be changing too much about the existing stylesheets and I want 
   min-height: 5px;
 }
 
-/* line 6, ../scss/_custom.scss */
+/* line 9, ../scss/_custom.scss */
+#content .orbit-container a:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* line 16, ../scss/_custom.scss */
 .orbit-bullets {
   display: none;
 }
 
-/* line 10, ../scss/_custom.scss */
+/* line 20, ../scss/_custom.scss */
 .sticky-catch {
   position: relative;
 }
 
-/* line 14, ../scss/_custom.scss */
+/* line 24, ../scss/_custom.scss */
 #signup {
   width: inherit;
   text-align: center;
 }
-/* line 18, ../scss/_custom.scss */
+/* line 28, ../scss/_custom.scss */
 #signup h1, #signup h2, #signup h3, #signup h4, #signup h5, #signup h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 23, ../scss/_custom.scss */
+/* line 33, ../scss/_custom.scss */
 #signup form {
   margin: 0 auto;
 }
 
-/* line 28, ../scss/_custom.scss */
+/* line 38, ../scss/_custom.scss */
 .form-group {
   display: inline-block;
   padding: 5px 8px;
 }
 
-/* line 33, ../scss/_custom.scss */
+/* line 43, ../scss/_custom.scss */
 footer {
   color: white;
 }
-/* line 36, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 footer #inner-footer {
   background: black;
 }
 
-/* line 43, ../scss/_custom.scss */
+/* line 53, ../scss/_custom.scss */
 #class-img .columns {
   padding: 0;
   margin: 0px;
 }
-/* line 48, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 #class-img img {
   display: block;
 }
-/* line 52, ../scss/_custom.scss */
+/* line 62, ../scss/_custom.scss */
 #class-img .overlay {
   display: none;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-/* line 58, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 #class-img .overlay h2 {
   font-size: 1.1em;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 64, ../scss/_custom.scss */
+/* line 74, ../scss/_custom.scss */
 #class-img .overlay p {
   font-size: 0.9em;
 }
-/* line 70, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 #class-img .mt .overlay {
   background: rgba(255, 0, 0, 0.75);
 }
-/* line 76, ../scss/_custom.scss */
+/* line 86, ../scss/_custom.scss */
 #class-img .mma .overlay {
   background: rgba(0, 0, 255, 0.75);
 }
-/* line 82, ../scss/_custom.scss */
+/* line 92, ../scss/_custom.scss */
 #class-img .box .overlay {
   background: rgba(0, 255, 0, 0.75);
 }
-/* line 88, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 #class-img .youth .overlay {
   background: rgba(175, 255, 175, 0.75);
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 blockquote.easy_testimonial {
   text-align: center;
   position: relative;
@@ -9685,7 +9690,7 @@ blockquote.easy_testimonial {
   border-radius: 30px;
   box-shadow: 2px 2px 4px #888;
 }
-/* line 102, ../scss/_custom.scss */
+/* line 112, ../scss/_custom.scss */
 blockquote.easy_testimonial:before {
   content: ' ';
   position: absolute;
@@ -9694,7 +9699,7 @@ blockquote.easy_testimonial:before {
   border: 25px solid;
   border-color: #666 transparent transparent #666;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 blockquote.easy_testimonial:after {
   content: ' ';
   position: absolute;
