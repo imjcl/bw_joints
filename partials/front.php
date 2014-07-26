@@ -26,7 +26,6 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-011.jpg" />
       <div class="overlay">
         <h2>Muay Thai</h2>
-        <p>The art of 8 limbs</p>
       </div>
     </div>
   </div>
@@ -36,7 +35,6 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-012.jpg" />
       <div class="overlay">
         <h2>Mixed Martial Arts</h2>
-        <p>...</p>
       </div>
     </div>
   </div>
@@ -46,7 +44,6 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-002.jpg" />
       <div class="overlay">
         <h2>Boxing</h2>
-        <p>The sweet science</p>
       </div>
     </div>
   </div>
@@ -56,7 +53,6 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BW-014.jpg" />
       <div class="overlay">
         <h2>Youth Martial Arts</h2>
-        <p>Teach your kid's the Muay Thai Kick Boxing ABC's</p>
       </div>
     </div>  
   </div>
