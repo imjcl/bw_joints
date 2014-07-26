@@ -9629,9 +9629,9 @@ h1, h2, h3, h4, h5, h6 {
 /* line 37, ../scss/_custom.scss */
 .header nav ul li {
   font-family: "Roboto";
-  letter-spacing: 2px;
+  letter-spacing: -1px;
   display: inline-block;
-  font-size: 1.25em;
+  font-size: 1.65em;
   font-weight: bold;
   margin: 0 8px;
 }
@@ -9639,76 +9639,80 @@ h1, h2, h3, h4, h5, h6 {
 .header nav ul li a {
   text-transform: uppercase;
 }
+/* line 48, ../scss/_custom.scss */
+.header nav ul li a:hover {
+  color: #3366CC;
+}
 
-/* line 53, ../scss/_custom.scss */
+/* line 57, ../scss/_custom.scss */
 .masthead {
   background: #000;
   min-height: 5px;
 }
 
-/* line 61, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 #content .orbit-container a:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-/* line 64, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 #content .orbit-container a:focus {
   background: rgba(255, 255, 255, 0.4);
 }
 
-/* line 71, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 .orbit-bullets {
   display: none;
 }
 
-/* line 75, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 .sticky-catch {
   position: relative;
 }
 
-/* line 79, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 #signup {
   width: inherit;
   text-align: center;
 }
-/* line 83, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 #signup h1, #signup h2, #signup h3, #signup h4, #signup h5, #signup h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 88, ../scss/_custom.scss */
+/* line 92, ../scss/_custom.scss */
 #signup form {
   margin: 0 auto;
 }
 
-/* line 93, ../scss/_custom.scss */
+/* line 97, ../scss/_custom.scss */
 .form-group {
   display: inline-block;
   padding: 5px 8px;
 }
 
-/* line 98, ../scss/_custom.scss */
+/* line 102, ../scss/_custom.scss */
 footer {
   color: #999;
 }
-/* line 101, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 footer #inner-footer {
   background: black;
 }
-/* line 105, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: white;
 }
 
-/* line 112, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 #class-img .columns {
   padding: 0;
   margin: 0px;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 #class-img img {
   display: block;
 }
-/* line 121, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 #class-img .overlay {
   display: none;
   position: absolute;
@@ -9717,7 +9721,7 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: white;
   text-align: center;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 #class-img .overlay h2 {
   font-size: 1.1em;
   text-transform: uppercase;
@@ -9725,16 +9729,16 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: white;
   padding: 4px;
 }
-/* line 137, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 #class-img .overlay p {
   font-size: 0.9em;
 }
-/* line 143, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 #class-img .mt .overlay, #class-img .mma .overlay, #class-img .box .overlay, #class-img .youth .overlay {
   background: rgba(42, 54, 76, 0.85);
 }
 
-/* line 149, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 blockquote.easy_testimonial {
   text-align: center;
   position: relative;
@@ -9742,15 +9746,15 @@ blockquote.easy_testimonial {
   border-radius: 30px;
   box-shadow: 2px 2px 4px #888;
 }
-/* line 157, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 blockquote.easy_testimonial p {
   color: black;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 165, ../scss/_custom.scss */
 blockquote.easy_testimonial cite {
   font-size: 1em;
 }
-/* line 165, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 blockquote.easy_testimonial:before {
   content: ' ';
   position: absolute;
@@ -9759,7 +9763,7 @@ blockquote.easy_testimonial:before {
   border: 25px solid;
   border-color: #666 transparent transparent #666;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 blockquote.easy_testimonial:after {
   content: ' ';
   position: absolute;
