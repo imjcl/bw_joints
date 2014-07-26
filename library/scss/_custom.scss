@@ -1,7 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 a {
-  color: #264C99
+  color: #264C99;
+}
+
+#content a {
+  &:hover, &:focus {
+    background-color: transparent;
+    color: #3366CC;
+    text-decoration: underline;
+  }
 }
 
 .button {
@@ -116,12 +124,14 @@ footer {
     bottom: 0;
     width: 100%;
     color: white;
+    text-align: center;
 
     h2 {
       font-size: 1.1em;
       text-transform: uppercase;
       font-weight: bold;
       color: white;
+      padding: 4px;
     }
 
     p {
