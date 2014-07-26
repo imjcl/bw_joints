@@ -24,7 +24,7 @@
     <input type="tel" class="form-control" id="Phone" name="Phone" placeholder="Phone" required>
   </div>
 
-  <button name="submit" type="submit" class="button tiny">GET YOUR FREE CLASS</button>
+  <button name="submit" type="submit" class="button">GET YOUR FREE CLASS</button>
   <!-- <a href="#myModal" data-toggle="modal"><button class="btn btn-primary" id="Submit" name="Submit" type="submit" onClick="getFName(this.form)">GET YOUR FREE CLASS</button></a>-->
   <!-- <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>  -->
 </form>
