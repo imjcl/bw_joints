@@ -9590,22 +9590,36 @@ CUSTOM STYLESHEET
 I'm not going to be changing too much about the existing stylesheets and I want to use this one to do overrides on rules.
 */
 /* line 3, ../scss/_custom.scss */
+a {
+  color: #264c99;
+}
+
+/* line 7, ../scss/_custom.scss */
+.button {
+  background-color: #264C99;
+}
+/* line 10, ../scss/_custom.scss */
+.button:hover {
+  background-color: #3366CC;
+}
+
+/* line 15, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto';
 }
 
-/* line 8, ../scss/_custom.scss */
+/* line 20, ../scss/_custom.scss */
 .header nav {
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-/* line 13, ../scss/_custom.scss */
+/* line 25, ../scss/_custom.scss */
 .header nav ul {
   list-style: none;
   margin: 8px 0;
 }
-/* line 17, ../scss/_custom.scss */
+/* line 29, ../scss/_custom.scss */
 .header nav ul li {
   font-family: "Roboto";
   letter-spacing: 2px;
@@ -9614,114 +9628,114 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin: 0 8px;
 }
-/* line 25, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 .header nav ul li a {
   text-transform: uppercase;
 }
 
-/* line 33, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .masthead {
   background: #000;
   min-height: 5px;
 }
 
-/* line 41, ../scss/_custom.scss */
+/* line 53, ../scss/_custom.scss */
 #content .orbit-container a:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-/* line 44, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 #content .orbit-container a:focus {
   background: rgba(255, 255, 255, 0.4);
 }
 
-/* line 51, ../scss/_custom.scss */
+/* line 63, ../scss/_custom.scss */
 .orbit-bullets {
   display: none;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 67, ../scss/_custom.scss */
 .sticky-catch {
   position: relative;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 #signup {
   width: inherit;
   text-align: center;
 }
-/* line 63, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 #signup h1, #signup h2, #signup h3, #signup h4, #signup h5, #signup h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 68, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 #signup form {
   margin: 0 auto;
 }
 
-/* line 73, ../scss/_custom.scss */
+/* line 85, ../scss/_custom.scss */
 .form-group {
   display: inline-block;
   padding: 5px 8px;
 }
 
-/* line 78, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 footer {
   color: #999;
 }
-/* line 81, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 footer #inner-footer {
   background: black;
 }
-/* line 85, ../scss/_custom.scss */
+/* line 97, ../scss/_custom.scss */
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: white;
 }
 
-/* line 92, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 #class-img .columns {
   padding: 0;
   margin: 0px;
 }
-/* line 97, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 #class-img img {
   display: block;
 }
-/* line 101, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 #class-img .overlay {
   display: none;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-/* line 107, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 #class-img .overlay h2 {
   font-size: 1.1em;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 113, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 #class-img .overlay p {
   font-size: 0.9em;
 }
-/* line 119, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 #class-img .mt .overlay {
   background: rgba(255, 0, 0, 0.75);
 }
-/* line 125, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 #class-img .mma .overlay {
   background: rgba(0, 0, 255, 0.75);
 }
-/* line 131, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 #class-img .box .overlay {
   background: rgba(0, 255, 0, 0.75);
 }
-/* line 137, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 #class-img .youth .overlay {
   background: rgba(175, 255, 175, 0.75);
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 blockquote.easy_testimonial {
   text-align: center;
   position: relative;
@@ -9729,15 +9743,15 @@ blockquote.easy_testimonial {
   border-radius: 30px;
   box-shadow: 2px 2px 4px #888;
 }
-/* line 151, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 blockquote.easy_testimonial p {
   color: black;
 }
-/* line 155, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 blockquote.easy_testimonial cite {
   font-size: 1em;
 }
-/* line 159, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
 blockquote.easy_testimonial:before {
   content: ' ';
   position: absolute;
@@ -9746,7 +9760,7 @@ blockquote.easy_testimonial:before {
   border: 25px solid;
   border-color: #666 transparent transparent #666;
 }
-/* line 168, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 blockquote.easy_testimonial:after {
   content: ' ';
   position: absolute;
