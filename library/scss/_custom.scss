@@ -115,11 +115,13 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: white;
 
     h2 {
       font-size: 1.1em;
       text-transform: uppercase;
       font-weight: bold;
+      color: white;
     }
 
     p {
@@ -127,27 +129,9 @@ footer {
     }
   }
 
-  .mt {
+  .mt, .mma, .box, .youth {
     .overlay {
-      background: rgba(255,0,0,0.75);
-    }
-  }
-
-  .mma {
-    .overlay {
-      background: rgba(0,0,255,0.75);
-    }
-  }  
-
-  .box{
-    .overlay {
-      background: rgba(0,255,0,0.75);
-    }
-  }
-
-  .youth {
-    .overlay {
-      background: rgba(175, 255, 175, 0.75);
+      background: rgba(42,54,76,0.85);
     }
   }
 }

@@ -9707,35 +9707,25 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: white;
 }
-/* line 119, ../scss/_custom.scss */
+/* line 120, ../scss/_custom.scss */
 #class-img .overlay h2 {
   font-size: 1.1em;
   text-transform: uppercase;
   font-weight: bold;
+  color: white;
 }
-/* line 125, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
 #class-img .overlay p {
   font-size: 0.9em;
 }
-/* line 131, ../scss/_custom.scss */
-#class-img .mt .overlay {
-  background: rgba(255, 0, 0, 0.75);
-}
-/* line 137, ../scss/_custom.scss */
-#class-img .mma .overlay {
-  background: rgba(0, 0, 255, 0.75);
-}
-/* line 143, ../scss/_custom.scss */
-#class-img .box .overlay {
-  background: rgba(0, 255, 0, 0.75);
-}
-/* line 149, ../scss/_custom.scss */
-#class-img .youth .overlay {
-  background: rgba(175, 255, 175, 0.75);
+/* line 133, ../scss/_custom.scss */
+#class-img .mt .overlay, #class-img .mma .overlay, #class-img .box .overlay, #class-img .youth .overlay {
+  background: rgba(42, 54, 76, 0.85);
 }
 
-/* line 155, ../scss/_custom.scss */
+/* line 139, ../scss/_custom.scss */
 blockquote.easy_testimonial {
   text-align: center;
   position: relative;
@@ -9743,15 +9733,15 @@ blockquote.easy_testimonial {
   border-radius: 30px;
   box-shadow: 2px 2px 4px #888;
 }
-/* line 163, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 blockquote.easy_testimonial p {
   color: black;
 }
-/* line 167, ../scss/_custom.scss */
+/* line 151, ../scss/_custom.scss */
 blockquote.easy_testimonial cite {
   font-size: 1em;
 }
-/* line 171, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 blockquote.easy_testimonial:before {
   content: ' ';
   position: absolute;
@@ -9760,7 +9750,7 @@ blockquote.easy_testimonial:before {
   border: 25px solid;
   border-color: #666 transparent transparent #666;
 }
-/* line 180, ../scss/_custom.scss */
+/* line 164, ../scss/_custom.scss */
 blockquote.easy_testimonial:after {
   content: ' ';
   position: absolute;
