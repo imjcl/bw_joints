@@ -9739,36 +9739,35 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
 }
 
 /* line 153, ../scss/_custom.scss */
+.testimonies {
+  padding: 0;
+}
+
+/* line 157, ../scss/_custom.scss */
+.randomTestimonialWidget {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+/* line 163, ../scss/_custom.scss */
 blockquote.easy_testimonial {
-  text-align: center;
-  position: relative;
-  border: 8px solid #666;
-  border-radius: 30px;
-  box-shadow: 2px 2px 4px #888;
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-/* line 161, ../scss/_custom.scss */
-blockquote.easy_testimonial p {
-  color: black;
+/* line 168, ../scss/_custom.scss */
+blockquote.easy_testimonial .testimonial_body {
+  background: #efefef;
+  padding: 8px;
 }
-/* line 165, ../scss/_custom.scss */
-blockquote.easy_testimonial cite {
-  font-size: 1em;
+/* line 173, ../scss/_custom.scss */
+blockquote.easy_testimonial cite:before {
+  content: '';
 }
-/* line 169, ../scss/_custom.scss */
-blockquote.easy_testimonial:before {
-  content: ' ';
-  position: absolute;
-  top: 100%;
-  right: 10%;
-  border: 25px solid;
-  border-color: #666 transparent transparent #666;
-}
-/* line 178, ../scss/_custom.scss */
-blockquote.easy_testimonial:after {
-  content: ' ';
-  position: absolute;
-  top: 100%;
-  right: 11%;
-  border: 15px solid;
-  border-color: #fff transparent transparent #fff;
+/* line 177, ../scss/_custom.scss */
+blockquote.easy_testimonial .testimonial-client {
+  font-size: 1.2em;
+  padding: 2px 8px;
+  font-style: normal;
 }
