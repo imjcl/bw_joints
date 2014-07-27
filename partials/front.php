@@ -85,9 +85,9 @@
     <small>See what our clients are saying!</small></h2>
 
     <?php if ( is_active_sidebar( 'testimonials' ) ) : ?>
-
+    <div class="testimonies">
       <?php dynamic_sidebar( 'testimonials' ); ?>
-
+    </div>
     <?php endif; ?>
   </div>
 </div>
